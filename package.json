@@ -59,8 +59,8 @@
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
+    "unplugin-fonts": "^1.0.3",
     "vite": "^4.3.2",
-    "vite-plugin-fonts": "^0.7.0",
     "vite-plugin-pwa": "^0.14.7"
   },
   "moduleNameMapper": {
