@@ -8,10 +8,9 @@ export default {
     '!src/**/*.stories.tsx',
     '!src/**/*.d.ts',
     '!src/stitches.ts',
-    '!src/*.tsx',
     '!src/styles/**/*',
-    '!src/testUtils/*.ts'
-    // '!src/**/index.ts'
+    '!src/testUtils/*.ts',
+    '!src/**/index.ts'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],

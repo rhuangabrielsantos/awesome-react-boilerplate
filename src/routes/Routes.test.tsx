@@ -2,8 +2,8 @@ import { render, screen } from '@testing-library/react';
 
 import { renderWithRouter } from '@/testUtils/render';
 
-import { routes } from './Routes';
 import { Router } from './index';
+import { routes } from './Routes';
 
 describe('<Routes />', () => {
   it('should render HomePage when path is "/"', () => {

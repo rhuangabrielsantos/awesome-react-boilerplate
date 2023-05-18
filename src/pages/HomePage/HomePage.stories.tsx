@@ -1,4 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
+
 import { HomePage } from './HomePage';
 
 type Story = StoryObj<typeof HomePage>;

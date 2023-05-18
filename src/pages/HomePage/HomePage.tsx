@@ -1,4 +1,5 @@
 import { CardComponent } from '@/components';
+
 import * as S from './HomePage.styles';
 
 export const HomePage = () => {
