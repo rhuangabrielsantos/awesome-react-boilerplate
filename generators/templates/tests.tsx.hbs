@@ -1,0 +1,17 @@
+import { render, screen } from '@testing-library/react';
+
+import { expectA11YTest } from '@/testUtils';
+
+import { {{pascalCase name}}Component } from './{{pascalCase name}}Component';
+
+describe('{{pascalCase name}}Component', () => {
+  it('should render card title', () => {
+    render(<{{pascalCase name}}Component />);
+    const cardTitle = screen.getByText('{{pascalCase name}}Component');
+    expect(cardTitle).toBeInTheDocument();
+  });
+
+  it('should follow accesibility rules', async () => {
+    await expectA11YTest(<{{pascalCase name}}Component />);
+  });
+});
